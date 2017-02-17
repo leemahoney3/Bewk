@@ -106,14 +106,15 @@ const bookmarks = {
     const data = {
       id: shortid.generate(),
       title: request.body.title,
-      link: request.body.link
+      link: request.body.link,
+      summary: request.body.summary
     };
 
     if (!data.link.startsWith("http://")) {
       data.link = 'http://' + data.link;
     }
 
-    if (data.title != '' && data.link != '') {
+    if (data.title != '' && data.link != '' && data.summary != '') {
 
       bookmarkModel.addBookmark(folderid, data);
       response.redirect('/bookmarks/folder/' + folderid + '/');
