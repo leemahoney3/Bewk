@@ -14,6 +14,20 @@ You can also add as many bookmarks as you please, the possibilities are endless.
 This project was built as part of the Web Development 2 module and it shows a basic understanding of JavaScript,
 Storing Data, and Semantic UI.
 
+How to Run:
+
+Clone or download zip from GitHub (http://github.com/leemahoney3/bewk).
+
+In terminal (or alternative) type the following commands:
+
+npm install
+
+sudo npm install -g nodemon
+
+sudo nodemon app.js
+
+Note: I highly recommend using nodemon, as Node.js does not automatically refresh.
+
 Technologies Used:
 - Semantic UI
 - Node.js
