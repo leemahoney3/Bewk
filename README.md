@@ -65,13 +65,4 @@ _Note: I highly recommend using nodemon, as Node.js does not automatically refre
 **GitHub URL:**
 [http://github.com/leemahoney3/Bewk/](http://github.com/leemahoney3/Bewk/)
 
-
-**To Run outside Gomix:**
-
-1. Download zip file from GitHub and unzip to directory of choice.
-2. In terminal move into the directory with the files.
-3. Run sudo npm install to install dependencies.
-4. When done simply run sudo node server.js
-5. The project will be visible on http://localhost:4000
-
 ## Enjoy :)

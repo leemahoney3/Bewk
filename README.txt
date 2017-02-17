@@ -56,15 +56,7 @@ Tasks Accomplished:
 - Contact form that submits (doesn't actually send an email).
 
 Gomix URL:
-http://bewk-iot.gomix.io/
+https://bewk-iot.gomix.me/
 
 GitHub URL:
 http://github.com/leemahoney3/Bewk/
-
-
-To Run outside GoMix:
-
-1. In terminal move into the directory with the files.
-2. Run sudo npm install to install dependencies.
-3. When done simply run sudo node server.js
-4. The project will be visible on http://localhost:4000
