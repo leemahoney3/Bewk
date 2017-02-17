@@ -1,0 +1,23 @@
+{
+  "name": "Bewk",
+  "version": "1.0.0",
+  "description": "The super simple bookmark manager.",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "express-handlebars": "^3.0.0",
+    "lodash": "^4.17.4",
+    "lowdb": "^0.14.0",
+    "logger": "^0.0.1",
+    "shortid": "^2.2.6",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Lee Mahoney",
+  "license": "ISC"
+}

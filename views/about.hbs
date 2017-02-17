@@ -1,0 +1,64 @@
+{{> menu id="about"}}
+
+<section class="ui center aligned middle aligned segment noBorder">
+  <h1 class="ui center aligned icon header">
+    <i class="circular icon mail"></i>
+    Get In Touch
+  </h1>
+  <br />
+  <br />
+  <br />
+  <div class="ui grid">
+    <div class="eight wide column" style="z-index: 1;">
+      <h2 class="ui dividing header">Contact Details</h2>
+      <div class="ui piled segment">
+        <p>Unit 14</p>
+        <p>Waterford Industrial Park</p>
+        <p>Cork Road, Waterford</p>
+        <p>Ireland, X45 T6J</p>
+        <br />
+        <p><b>Telephone</b> (051) 458 374</p>
+        <p><b>Email</b> info@bewk.ie</p>
+      </div>
+    </div>
+    <div class="eight wide column">
+      <h2 class="ui dividing header">Pop in and say hello!</h2>
+      <iframe width="400" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Unit%2014%2C%20Waterford%20Industrial%20Park%2C%20Cork%20Rd%2C%20Waterford&key=AIzaSyB_xNlbeRWYnxlazle0FthDkdxWMZ0Psms" allowfullscreen></iframe>
+    </div>
+    <div class="sixteen wide column">
+      <h2 class="ui dividing header">By Email</h2>
+      <form class="ui form" action="/about/" method="POST" id="contactForm">
+        <div class="field">
+          <input type="text" name="name" placeholder="Your Name">
+        </div>
+        <div class="field">
+          <input type="email" name="email" placeholder="Your Email">
+        </div>
+        <div class="field">
+          <textarea name="message" rows="8" cols="80" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" name="send" id="send" class="ui button">Send</button>
+      </form>
+      <div class="ui icon positive message" id="formMsg">
+        <i class="icon checkmark"></i>
+        <div class="content">
+          <div class="header">
+            Awesome, we got your message!
+          </div>
+          <p>Please allow us 48 hours to get back to you.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  $('#send').on('click', function (e) {
+
+    // Temporary, just for show.
+    $('#contactForm').hide();
+    $('#formMsg').show();
+
+    e.preventDefault();
+  });
+</script>

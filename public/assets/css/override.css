@@ -1,0 +1,27 @@
+/* Semantic UI Overrides */
+
+body {
+  margin-top: 25px;
+}
+
+.logo {
+  font-family: 'Amatic SC', cursive;
+  font-size: 36px;
+  color: #222;
+  position: relative;
+  top: 10px;
+}
+
+.noBorder {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+#formMsg {
+  display: none;
+}
+
+.counter {
+  margin-top: 35px !important;
+  margin-bottom: 35px !important;
+}

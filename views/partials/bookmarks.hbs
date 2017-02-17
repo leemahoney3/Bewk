@@ -1,0 +1,10 @@
+{{#each folder.bookmarks}}
+
+<section class="ui stacked segment">
+  <h2 class="ui header"><a href="{{ link }}" target="_blank">{{ title }}</a></h2>
+
+  <a href="{{ link }}" target="_blank" class="ui icon button"><i class="icon mail forward"></i> Visit Site</a>
+  <a href="/bookmarks/folder/{{ ../folder.id }}/delete/{{ id }}/" class="ui icon button"><i class="icon trash"></i> Delete</a>
+</section>
+
+{{/each}}
