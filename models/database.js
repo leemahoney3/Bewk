@@ -21,7 +21,7 @@ class Database {
 
   }
 
-  remove(collection, folderid) {
+  remove(collection, object) {
 
     this.db.get(collection).remove(object).value();
 
