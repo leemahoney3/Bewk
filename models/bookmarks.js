@@ -17,7 +17,7 @@ const bookmarks = {
     let count     = 0;
 
     for (let i = 0; i < folders.length; i++) {
-      count += folders[i].count;
+      count += folders[i].bookmarks.length;
     }
 
     return count;
@@ -60,8 +60,6 @@ const bookmarks = {
     //console.log(object);
     folder.bookmarks.push(object);
 
-    folder.count += 1;
-
   },
 
   // Remove a bookmark from the database
@@ -69,8 +67,6 @@ const bookmarks = {
 
     const folder = this.getFolder(folderid);
     _.remove(folder.bookmarks, { id: bookmarkid });
-
-    folder.count -= 1;
 
   }
 

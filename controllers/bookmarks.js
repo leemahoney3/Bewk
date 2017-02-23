@@ -53,7 +53,6 @@ const bookmarks = {
       id: shortid.generate(),
       title: request.body.title,
       description: request.body.description,
-      count: 0,
       bookmarks: []
     };
 
